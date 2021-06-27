@@ -1,0 +1,50 @@
+### get请求
+GET http://localhost:8080/learn01
+
+###
+GET http://localhost:8080/learn01/hello.do
+
+### post 提交表单
+POST http://localhost:8080/post
+Content-Type: application/x-www-form-urlencoded
+
+name=张三&age=23
+
+### body 中传递json数据
+POST http://localhost:8080/body
+Content-Type: application/json
+
+[3,10,40]
+
+### put请求
+PUT http://localhost:8080/put
+
+
+### 多文件上传文件接口测试
+POST http://localhost:8080/learn04/upload1.do
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+
+--WebAppBoundary
+Content-Disposition: form-data; name="file1"; filename="old.jpeg"
+
+< C:\Users\qixin\Pictures\old.jpg
+--WebAppBoundary--
+
+--WebAppBoundary
+Content-Disposition: form-data; name="file2"; filename="new.jpeg"
+
+< C:\Users\qixin\Pictures\new.jpg
+--WebAppBoundary--
+
+--WebAppBoundary--
+Content-Disposition: form-data;name=userName
+
+tom
+--WebAppBoundary--
+
+--WebAppBoundary--
+Content-Disposition: form-data;name=age
+
+23
+--WebAppBoundary--
+###

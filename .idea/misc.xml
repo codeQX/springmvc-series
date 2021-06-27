@@ -3,6 +3,7 @@
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/learn01_helloword" />
+    <file type="web" url="file://$PROJECT_DIR$/learn04_uploadfile" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">

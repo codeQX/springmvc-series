@@ -1,2 +1,4 @@
 # Project exclude paths
 /learn01_helloword/target/
+/learn04_uploadfile/target/
+/.idea/
